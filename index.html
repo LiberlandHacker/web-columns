@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Left column and main section</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: row;
+			border: 1px solid black;
+		}
+
+		.left-column {
+			width: 30%;
+			background-color: lightgray;
+			padding: 10px;
+		}
+
+		.main-section {
+			flex: 1;
+			background-color: white;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left-column">
+			<h2>Left Column</h2>
+			<p>This is some content for the left column.</p>
+		</div>
+		<div class="main-section">
+			<h2>Main Section</h2>
+			<p>This is some content for the main section.</p>
+		</div>
+	</div>
+</body>
+</html>
